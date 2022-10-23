@@ -2,20 +2,20 @@
 import './App.css';
 import Header from './Components/Commons/Heading/Header';
 import {
-  BrowserRouter as Router, Route} from "react-router-dom";
+  BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import Home from './Components/Commons/Home/Home';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Router>
-      <Header/>
-        
-            {/* <Route path="/about">
-              <About />
-            </Route> */}
-          
-      </Router>
-    </div>
+        <Header/>
+          <Switch>
+            <Route path="/" exact component={Home} /> 
+          </Switch>
+        </Router>
+
+    </>
   );
 }
 
