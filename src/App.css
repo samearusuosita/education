@@ -104,7 +104,7 @@ p{
 }
 
 .back{
-  background-image: url("./img/estudante.jpg");
+  background-image: url("./img/back.webp");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
