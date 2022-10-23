@@ -1,20 +1,19 @@
 
 import './App.css';
 import Header from './Components/Commons/Heading/Header';
-import {
-  BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { Routes, Route } from 'react-router-dom';
+// import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './Components/Commons/Home/Home';
 
 function App() {
   return (
-    <>
-      <Router>
-        <Header/>
-          <Switch>
-            <Route path="/" exact component={Home} /> 
-          </Switch>
-        </Router>
-
+    <> 
+    <Header/>
+      <Routes>
+        <Route>
+          <Route exact path="/" element={<Home/>} /> 
+        </Route>
+      </Routes>
     </>
   );
 }

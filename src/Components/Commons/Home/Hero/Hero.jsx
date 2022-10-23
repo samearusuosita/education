@@ -1,9 +1,25 @@
-import React from 'react'
+import React from 'react';
+import "./Hero.css"
 
 const Hero = () => {
   return (
     <>
-      <h1>Hero</h1>
+      <section className='hero'>
+        <div className="container">
+          <div className="row">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam numquam cumque doloremque commodi ducimus tenetur ipsum quisquam voluptate tempore fuga dolores nostrum blanditiis minima soluta, qui nesciunt expedita mollitia id.</p>
+            <div className="button">
+              <button className='primary-btn'>
+                GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
+              </button>
+              <button className='primary-btn'>
+                VIEW COURSES <i className='fa fa-long-arrow-alt-right'></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="margin"></div>    
     </>
   )
 }
