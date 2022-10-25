@@ -72,16 +72,23 @@
     text-transform: uppercase;
 }
 
-.margin{
-    margin-top: 40.3%;
+@media screen and (max-width: 768px) {
+    
+    .aboutHome{
+        margin-top: 80%;
+
+    }
+    
+    .aboutHome .container{
+        flex-direction: column-reverse;
+    }
+
+    .aboutHome .row{
+        width: 100%;
+    }
+    
+    .awrapper{
+        height: 50vh;
+    }
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-}
-
-.flex{
-    display: flex;
-}

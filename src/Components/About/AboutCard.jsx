@@ -4,6 +4,7 @@ import { Images } from '../Constant';
 import { homeAbout } from '../dummyData';
 import AWrapper from './AWrapper';
 
+
 const AboutCard = () => {
   return (
     <>
