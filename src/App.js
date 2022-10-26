@@ -7,6 +7,9 @@ import Home from './Components/Commons/Home/Home';
 import About from './Components/About/About';
 import CoursesHome from './Components/AllCourses/CoursesHome';
 import Team from './Components/Team/Team';
+import Price from './Components/Pricing/Price';
+import Blog from './Components/Blog/Blog';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
           <Route exact path="/about" element={<About/>} /> 
           <Route exact path="/courses" element={<CoursesHome/>} /> 
           <Route exact path="/team" element={<Team/>} /> 
+          <Route exact path="/pricing" element={<Price/>} /> 
+          <Route exact path="/journal" element={<Blog/>} /> 
+          <Route exact path="/contact" element={<Contact/>} /> 
         </Route>
       </Routes>
     </>
