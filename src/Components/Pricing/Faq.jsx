@@ -23,7 +23,7 @@ const Faq = () => {
               <div className="box">
                 <button className='accordion' onClick={() => toggle(index)} key={index}>
                   <h1>{val.title}</h1>
-                  <span>{click === index? <i className='fa facheron-down'></i> : <i className='fa facheron-right'></i>}</span>
+                  <span>{click === index? <i className='fa fa-chevron-down'></i> : <i className='fa fa-chevron-right'></i>}</span>
                 </button>
                {click === index ? (
                  <div className="text">

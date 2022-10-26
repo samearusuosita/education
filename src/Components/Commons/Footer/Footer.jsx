@@ -8,7 +8,7 @@ const Footer = () => {
       <section className='newsletter'>
         <div className="container flex5B">
             <div className="left row">
-                <h1>Newsletter -Stay tune and get the latest updates</h1>
+                <h1>Newsletter - Stay tune and get the latest updates</h1>
                 <p>Far far away behind the word mountains</p>
             </div>
             <div className="right row">

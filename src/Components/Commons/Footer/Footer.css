@@ -47,7 +47,7 @@ footer .container{
     gap: 30px;
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
     footer .container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
