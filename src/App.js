@@ -10,6 +10,7 @@ import Team from './Components/Team/Team';
 import Price from './Components/Pricing/Price';
 import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Commons/Footer/Footer';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route exact path="/contact" element={<Contact/>} /> 
         </Route>
       </Routes>
+      <Footer/>
     </>
   );
 }
