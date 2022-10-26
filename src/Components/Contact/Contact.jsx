@@ -1,15 +1,16 @@
-import React from 'react'
-import Back from '../Commons/Back/Back'
+import React from 'react';
+import Back from '../Commons/Back/Back';
+import "./Contact.css"
 
 const Contact = () => {
 
-    const map = '"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31715.650422619106!2d3.5323071816353195!3d6.463731293407402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf7442fc585df%3A0x642eaefe2c2c7ce2!2sAja%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1666773639985!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"'
+    const map = `https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d126839.06821658298!2d3.3685503999999997!3d6.5568768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1666799042661!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade`
 
   return (
     <>
       <Back title="Contact Us"/>
       <section className='contact padding'>
-        <div className="container shadow">
+        <div className="container shadow flex5B">
             <div className="left row">
                 <iframe src={map}></iframe>
             </div>
@@ -39,7 +40,12 @@ const Contact = () => {
                     </div>
                     <input type="text" placeholder='Subject'/>
                     <textarea cols="30" rows="10">Create a message here</textarea>
+                    
+                    <button className='primary-btn'>SEND MESSAGE</button>
                 </form>
+
+                <h3>Follor us here</h3>
+                <span>Facebook Twitter Instagram</span>
             </div>
         </div>
       </section>
