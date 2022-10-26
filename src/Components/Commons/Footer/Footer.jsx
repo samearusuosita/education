@@ -78,10 +78,9 @@ const Footer = () => {
             <div className="box last" >
                 <h3>Have a Question?</h3>
                 <ul>
-                    <li className='fa fa-map'>James web road lagos nigeria</li>
-                    <li className='fa fa-phone-alt'>07065434953</li>
-                    <li className='fa fa-paper-plane'>info@example.come</li>
-                
+                    <li><i className='fa fa-map'></i>James web road lagos nigeria</li>
+                    <li><i className='fa fa-phone-alt'></i>07065434953</li>
+                    <li><i className='fa fa-paper-plane'></i>info@example.come</li>
                 </ul>
             </div>
         </div>

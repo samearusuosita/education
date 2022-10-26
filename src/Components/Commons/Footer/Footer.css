@@ -118,9 +118,9 @@ footer .last ul li{
 }
 
 footer .last i{
-    /* width: 60px; */
+    width: 60px;
     font-size: 20px;
-    color: #1eb2a6 !;
+    color: #1eb2a6;
 }
 
 .legal{
