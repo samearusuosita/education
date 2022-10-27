@@ -9,9 +9,6 @@ const CoursesHome = () => {
       <Back title="Explore Courses"/>
       <CourseCard/>
       <OnlineCourses/>
-
-{/* stoped at 56:07 */}
-
     </>
   )
 }
