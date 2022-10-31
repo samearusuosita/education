@@ -31,7 +31,7 @@ const HAbout = () => {
                                     <label htmlFor="">{5.0}</label>
                                 </div>
                                 <div className="details">
-                                    {/* this  is because we are fetching data from nested api */}
+                                    {/* this  is because we are fetching data from nested api with teachers details*/}
                                     {val.courTeacher.map((details) =>(
                                         <>
                                         <div className="box">
