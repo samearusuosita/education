@@ -7,9 +7,9 @@ const HPrice = () => {
     <>
       <section className='price padding'>
         <Title subtitle="Our Pricing" title="Pricing & Package"/>
-            <div className="price container grid">
-                <PriceCard/>
-            </div>
+          <div className="price container gridB">
+            <PriceCard/>
+          </div>
         </section>
     </>
   )

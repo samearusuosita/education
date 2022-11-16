@@ -8,8 +8,8 @@ const Hero = () => {
       <section className='hero'>
         <div className="container">
           <div className="row">
-            <Title subtitle='WELCOME TO ACADEMIA' title="Best Online Education"/>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam numquam cumque doloremque commodi ducimus tenetur ipsum quisquam voluptate tempore fuga dolores nostrum blanditiis minima soluta, qui nesciunt expedita mollitia id.</p>
+            <Title subtitle='WELCOME TO THE FIRST BEST FRONTEND' title="No Video Online Training"/>
+            <p>Get an internship opportunity after you complete all 8 courses. Learn by building projects every week. You will only learn what you need to be job read and start earning.</p>
             <div className="button">
               <button className='primary-btn'>
                 GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>

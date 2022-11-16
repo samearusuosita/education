@@ -2,42 +2,42 @@ export const homeAbout = [
     {
       id: 1,
       cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-      title: "Online Courses",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      title: "Fast Track",
+      desc: "Learn only what you need to solve real-world problems. Avoid wasting time on watching long videos, learn by doin it yourself.",
     },
     {
       id: 1,
       cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-      title: "Earn A Certificates",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      title: "Remote Internship",
+      desc: "Work from Home or anywhere around the world after you complete all our courses. Reduce the time of finding new job on completion.",
     },
     {
       id: 1,
       cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-      title: "Learn with Expert",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      title: "Earn a Verifiable Certificate",
+      desc: "Showcase your achivement and Share your certificate withyour prospective emploreyer, verify the authenticity of your certicate.",
     },
   ]
   export const awrapper = [
-    {
-      cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
-      data: "3,000",
-      title: "SUCCESS STORIES",
-    },
+    // {
+    //   cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
+    //   data: "3,000",
+    //   title: "SUCCESS STORIES",
+    // },
   
     {
       cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
-      data: "320",
+      data: "16",
       title: "TRUSTED TUTORS",
     },
     {
       cover: "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
-      data: "1,000",
+      data: "55",
       title: "SCHEDULES",
     },
     {
       cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
-      data: "587",
+      data: "8",
       title: "COURSES",
     },
   ]
@@ -45,63 +45,49 @@ export const homeAbout = [
     {
       id: 1,
       cover: "../img/courses/c1.png",
-      coursesName: "Introducing to Software Engineering",
+      coursesName: "Web Development using React JS",
       courTeacher: [
         {
           dcover: "./img/back.webp",
-          name: "by John Smith",
+          name: "by Samuel OSita",
           totalTime: "50 lectures (190 hrs)",
         },
       ],
-      priceAll: "$100 All Course",
-      pricePer: "$15 per month",
+      priceAll: "$50 All Course",
+      pricePer: "$10 per month",
     },
     {
       id: 2,
       cover: "../img/courses/c2.png",
-      coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
+      coursesName: "Enhancing Adobe XD and Figma Skills",
       courTeacher: [
         {
           dcover: "./img/back.webp",
-          name: "by Ram Gurung",
+          name: "by Janiffer Otang",
           totalTime: "30 lectures (125 hrs)",
         },
       ],
-      priceAll: "$200 All Course",
-      pricePer: "$25 per month",
+      priceAll: "$50 All Course",
+      pricePer: "$10 per month",
     },
     {
       id: 3,
       cover: "../img/courses/c3.png",
-      coursesName: "HTML, CSS, and Javascript for Web Developers",
+      coursesName: "HTML, CSS, and Javascript for Developers",
       courTeacher: [
         {
           dcover: "./img/back.webp",
-          name: "by Saroj Nepal",
-          totalTime: "50 lectures (50 hrs)",
+          name: "by Samuel Osita",
+          totalTime: "50 lectures (100 hrs)",
         },
       ],
       priceAll: "$50 All Course",
-      pricePer: "$5 per month",
+      pricePer: "$10 per month",
     },
     {
       id: 4,
-      cover: "../img/courses/c4.png",
-      coursesName: "Introducing to Programming with WordPress",
-      courTeacher: [
-        {
-          dcover: "./img/back.webp",
-          name: "by Prabin Thapa Mager",
-          totalTime: "20 lectures (20 hrs)",
-        },
-      ],
-      priceAll: "$30 All Course",
-      pricePer: "$3 per month",
-    },
-    {
-      id: 5,
       cover: "../img/courses/c5.png",
-      coursesName: "Introducing to Programming with ReactJS",
+      coursesName: "Transition from CSS to SASS",
       courTeacher: [
         {
           dcover: "./img/back.webp",
@@ -113,7 +99,7 @@ export const homeAbout = [
       pricePer: "$30 per month",
     },
     {
-      id: 6,
+      id: 5,
       cover: "../img/courses/c6.png",
       coursesName: "Learn Frontend Programming Language",
       courTeacher: [
@@ -127,7 +113,7 @@ export const homeAbout = [
       pricePer: "$80 per month",
     },
     {
-      id: 7,
+      id: 6,
       cover: "../img/courses/c7.png",
       coursesName: "Introducing to with HTML / CSS",
       courTeacher: [
@@ -138,109 +124,63 @@ export const homeAbout = [
         },
       ],
       priceAll: "$20 All Course",
-      pricePer: "$2 per month",
-    },
-    {
-      id: 8,
-      cover: "../img/courses/c8.png",
-      coursesName: "Introducing to with JAVA",
-      courTeacher: [
-        {
-          dcover: "./img/back.webp",
-          name: "by Petter",
-          totalTime: "80 lectures (200 hrs)",
-        },
-      ],
-      priceAll: "$200 All Course",
-      pricePer: "$40 per month",
-    },
-    {
-      id: 9,
-      cover: "../img/courses/c9.png",
-      coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
-      courTeacher: [
-        {
-          dcover: "./img/back.webp",
-          name: "by Petter",
-          totalTime: "50 lectures (50 hrs)",
-        },
-      ],
-      priceAll: "$20 All Course",
-      pricePer: "$3 per month",
+      pricePer: "$20 per month",
     },
   ]
   export const online = [
     {
-      cover: "./img/courses/online/o1.png",
-      hoverCover: "./img/courses/online/o1.1.png",
-      courseName: "UI/UX Design Courses",
-      course: "25 Courses",
-    },
-    {
       cover: "./img/courses/online/o2.png",
       hoverCover: "./img/courses/online/o2.1.png",
-      courseName: "Art & Design",
+      courseName: "Adobe XD",
       course: "25 Courses",
     },
     {
       cover: "./img/courses/online/o3.png",
       hoverCover: "./img/courses/online/o3.1.png",
-      courseName: "Computer Science",
-      course: "10 Courses",
+      courseName: "Figma",
+      course: "25 Courses",
     },
     {
       cover: "./img/courses/online/o4.png",
       hoverCover: "./img/courses/online/o4.1.png",
-      courseName: "History & Archeologic",
+      courseName: "Git",
       course: "15 Courses",
     },
     {
       cover: "./img/courses/online/o5.png",
       hoverCover: "./img/courses/online/o5.1.png",
-      courseName: "Software Engineering",
+      courseName: "Javascript",
       course: "30 Courses",
     },
     {
       cover: "./img/courses/online/o6.png",
       hoverCover: "./img/courses/online/o6.1.png",
-      courseName: "Information Software",
+      courseName: "Bootstrap",
       course: "60 Courses",
     },
     {
       cover: "./img/courses/online/o7.png",
       hoverCover: "./img/courses/online/o7.1.png",
-      courseName: "Health & Fitness",
-      course: "10 Courses",
+      courseName: "HTML AND CSS",
+      course: "25 Courses",
     },
     {
       cover: "./img/courses/online/o8.png",
       hoverCover: "./img/courses/online/o8.1.png",
-      courseName: "Marketing",
+      courseName: "React Js",
       course: "30 Courses",
     },
     {
       cover: "./img/courses/online/o9.png",
       hoverCover: "./img/courses/online/o9.1.png",
-      courseName: "Graphic Design",
-      course: "80 Courses",
+      courseName: "SASS",
+      course: "15 Courses",
     },
     {
       cover: "./img/courses/online/o10.png",
       hoverCover: "./img/courses/online/o10.1.png",
-      courseName: "Music",
-      course: "120 Courses",
-    },
-    {
-      cover: "./img/courses/online/o11.png",
-      hoverCover: "./img/courses/online/o11.1.png",
-      courseName: "Business Administration",
-      course: "17 Courses",
-    },
-    {
-      cover: "./img/courses/online/o12.png",
-      hoverCover: "./img/courses/online/o12.1.png",
-      courseName: "Web Management",
-      course: "17 Courses",
+      courseName: "Resource Pack",
+      course: "50 Courses",
     },
   ]
   export const team = [
@@ -287,50 +227,53 @@ export const homeAbout = [
   ]
   export const price = [
     {
-      name: "BASIC PLAN",
-      price: "49K",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    },
-    {
       name: "BEGINNER PLAN",
-      price: "79K",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      price: "50",
+      desc: "Sigle account, you will have unlimited access to all 8 courses, learning reources, certificate, and more.",
     },
     {
-      name: "PREMIUM PLAN",
-      price: "109k",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      name: "FAMILY PLAN",
+      price: "120",
+      desc: "Everything in BEGINNER PLAN + invite or add up to three (3) users to your account to earn certificates",
     },
     {
-      name: "ULTIMATE PLAN",
-      price: "149K",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      name: "EXTENDED PLAN",
+      price: "200",
+      desc: "Everything in FAMILY PLAN + abbility of users to tranfers their respective account to someone else.",
     },
   ]
   export const faq = [
     {
-      title: "How to Enroll This Online Courses?",
-      desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "How to Enroll this Online Courses?",
+      desc: "Click on any course or subscription plans, fill in all required information on the application form. continue to the payment section to complete your signup. We will review your application and send you an invitation to join the academy.",
     },
     {
-      title: "Where It is hidden by default, until the collapse?",
-      desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "Why is your process though",
+      desc: "We are committed to be decipline, and zero percent tolerance. We put our learners through a vigurous learning path that distingush them from others. Completing any of our online course means you have all it takes to survive the extensive work load at any company.",
     },
     {
-      title: "How It is hidden by default, until the collapse?",
-      desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "Do I need to complete all 8 course before earning a certificate?",
+      desc: "To earn the Certified Frontend Developer (CFD) certificate, you will be required to complete all 8 courses within the specified time frame, and most have submited all weekly projects without any defaults.",
     },
     {
-      title: "How to Enroll This Online Courses?",
-      desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "Can I pay one time for all the courses?",
+      desc: "Yes, you can pay one-off by choosing a subscription plan that suits your needs, and enjoy a special discount of 20-30%.",
     },
     {
-      title: "Where It is hidden by default, until the collapse?",
-      desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "What if I or any one I have added to my account fails to complete the weekely projects?",
+      desc: "Failing to complete any weekly task at any time on your account will lead to your account being suspended. However, you can appeal by using the appeal appeal link. Note that when you account is suspended, all progress done on that partifular course will be reset, and you will be required to wait for 7 days before being re-admitted into the course. This will attract a fine of 50% of the cost of your current subscription.",
     },
     {
-      title: "How It is hidden by default, until the collapse?",
-      desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "Can I transfer my registration to someone to compete the course?",
+      desc: "Yes, you can transfer your registration to someone else (e.g to your friends and family memebers) by contacting us and requesting for regitration transfer. Note that all your progress and work done will be cleared and reset. The receipiant of the transfer will start from the BEGINNERS STAGE. You can only transfer your registration to one person.",
+    },
+    {
+      title: "Can I add someone else to my account to also take the course and earn a certificate?",
+      desc: "Yes, you can add up to 2 persons to your account and earn diffrent certificates respectively. Simply upgrade or choose the family plan, this will allow you add your friends and family to your acount to take the training and enjoy equal benefits.",
+    },
+    {
+      title: "How do i verify my certificate?",
+      desc: "To verify your certificate, simply click the verify button, enter your registration ID and Certificate No. Click on Cerify button. Remember your certificate is valid for 2 years after which you will be required to take an update course to reinstate your validation.",
     },
   ]
   export const blog = [

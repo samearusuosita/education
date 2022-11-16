@@ -1,3 +1,4 @@
+
 .price .items{
     padding: 40px;
     text-align: center;
@@ -37,6 +38,7 @@
     justify-content: space-between;
     width: 100%;
     padding: 15px 20px;
+    
 }
 
 .faq h2{

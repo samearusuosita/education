@@ -8,7 +8,7 @@ const HAbout = () => {
     <>
       <section className='homeAbout'>
         <div className="container">
-            <Title subtitle="Our Courses" title="Explore our popular online courses"/>
+            <Title subtitle="Our Courses" title="Explore our popular Frontend courses"/>
         <div className='coursesCard'>
             <div className="grid2">
                 {coursesCard.slice(0, 3).map((val) => {

@@ -5,7 +5,7 @@ const AWrapper = () => {
   return (
     <>
       <section className='awrapper'>
-        <div className="container grid">
+        <div className="container gridB">
           {awrapper.map((val) => (
             <div className="box flex">
               <div className="img">

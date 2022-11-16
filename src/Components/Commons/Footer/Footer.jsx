@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container flex5B">
             <div className="left row">
                 <h1>Newsletter - Stay tune and get the latest updates</h1>
-                <p>Far far away behind the word mountains</p>
+                <p>Learn a new way to learn on the latest technologies</p>
             </div>
             <div className="right row">
                 <input type="text" placeholder='Enter your email address'/>
@@ -33,11 +33,10 @@ const Footer = () => {
                 <h3>Explore</h3>
                 <ul>
                     <li>About US</li>
-                    <li>About US</li>
-                    <li>About US</li>
-                    <li>About US</li>
-                    <li>About US</li>
-                    
+                    <li>Our Courses</li>
+                    <li>Pricing</li>
+                    <li>Journals</li>
+                    <li>Contact Us</li>
                 </ul>
             </div>
             <div className="box link">
@@ -78,15 +77,15 @@ const Footer = () => {
             <div className="box last" >
                 <h3>Have a Question?</h3>
                 <ul>
-                    <li><i className='fa fa-map'></i>James web road lagos nigeria</li>
-                    <li><i className='fa fa-phone-alt'></i>07065434953</li>
-                    <li><i className='fa fa-paper-plane'></i>info@example.come</li>
+                    <li><i className='fa fa-map'></i>7 Bricks Road, Lekki - Lagos</li>
+                    <li><i className='fa fa-phone-alt'></i>+2349161142608</li>
+                    <li><i className='fa fa-paper-plane'></i>talk@scobad.come</li>
                 </ul>
             </div>
         </div>
       </footer>
       <div className="legal">
-        <p>Copyright @2022 All right reserved | This site is development by <i className='fa fa-heart'></i></p>
+        <p>Copyright @2022 All right reserved | SCOBAD ACADEMY 2022 <i className='fa fa-heart'></i></p>
       </div>
     </>
   )

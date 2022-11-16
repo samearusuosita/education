@@ -9,7 +9,7 @@ const OnlineCourses = () => {
         <div className="container">
           <Title subtitle="COURSES" title="Browse Our Courses"/>
 
-          <div className="content grid3">
+          <div className="content gridC">
             {online.map((val) =>(
               <div className="box">
                 <div className="img">

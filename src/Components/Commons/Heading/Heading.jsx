@@ -6,7 +6,7 @@ const Heading = () => {
       <section className='head'>
         <div className="container flex5B">
             <div className="logo">
-                <h1>ACADEMIA</h1>
+                <h1>SCOBAD ACADEMY</h1>
                 <span>ONLINE EDUCATION & LEARNING</span>
             </div>
                 <div className="social">
